@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    background-color: #5a6ffd
+}
+
+html {
+    word-wrap: break-word;
+    word-break: break-all;
+    /* background-color: #f8f8f8;*/
+    line-height: 1;
+    font-family: PingFang SC, Helvetica, Arial, Hiragino Sans GB, Microsoft Yahei, STHeiTi, sans-serif;
+    color: #333;
+    text-size-adjust: 100%
+}
+
+html, html body, html div, html h1, html h3, html h4, html li, html p, html ul {
+    padding: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent
+}
+
+html li, html ul {
+    list-style: none
+}
+
+html a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px
+}
+
+body {
+    margin: 0
+}
+
+html {
+    font: 16px/1 Microsoft Yahei, PingFang SC, Helvetica, Arial, Hiragino Sans GB, STHeiTi, sans-serif
+}
+
+.choujiangBox {
+    height: 35.375rem;
+    background: url(../img/bac.png) 50% no-repeat;
+    background-size: 100% auto;
+}
+
+.cjNumer {
+    position: absolute;
+    top: 7.3125rem;
+    left: 50%;
+    margin-left: -2.1875rem;
+    text-align: center;
+    color: #ff6060;
+    font-size: .75rem
+}
+
+.cjNumer span {
+    font-size: 1rem;
+    font-weight: 700
+}
+
+.shuoming {
+    position: absolute;
+    top: 28.75rem
+}
+
+.shuoming h5, .shuoming p {
+    margin: 0 2.1875rem
+}
+
+.shuoming h5 {
+    font-family: PingFangSC-Semibold;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    color: #b15502;
+    letter-spacing: 0;
+    margin-bottom: .25rem
+}
+
+.shuoming p {
+    font-family: PingFangSC-Regular;
+    font-size: .75rem;
+    line-height: 1.0625rem;
+    color: #b15502;
+    letter-spacing: 0
+}
+
+.choujiang {
+    position: absolute;
+    top: 8.75rem;
+    left: 50%;
+    margin-left: -9.5625rem;
+    width: 19.0625rem;
+    background-image: linear-gradient(180deg, #ffc1af, #ff702c);
+    box-shadow: inset 0 1px 20px 0 rgba(255, 43, 0, .26);
+    border-radius: 6px;
+    padding-top: .625rem
+}
+
+.choujiang .option1 {
+    background-image: url(../img/op1.png);
+    border-radius: 4px
+}
+
+.choujiang .option2 {
+    background-image: url(../img/op2.png);
+    border-radius: 4px
+}
+
+.choujiang .option3 {
+    background-image: url(../img/op3.png);
+    border-radius: 4px
+}
+
+.choujiang .option4 {
+    background-image: url(../img/op4.png);
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: 50%
+}
+
+.choujiang .option5 {
+    background-image: url(../img/op5.png);
+    border-radius: 4px
+}
+
+.choujiang .option6 {
+    background-image: url(../img/op6.png);
+    border-radius: 4px
+}
+
+.choujiang .option7 {
+    background-image: url(../img/op7.png);
+    border-radius: 4px
+}
+
+.choujiang .option8 {
+    background-image: url(../img/op8.png);
+    border-radius: 4px
+}
+
+.choujiang .start {
+    background-image: url(../img/start.png);
+    border-bottom: 4px solid #f96b12
+}
+
+.choujiang .no {
+    background-image: url(../img/start_no.png);
+    border-bottom: 4px solid #f96b12
+}
+
+.choujiang li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    width: 5.5rem;
+    height: 5rem;
+    padding-bottom: .25rem;
+    background-image: linear-gradient(180deg, #fff, #ffbd8a);
+    box-shadow: 0 2px 12px 0 #ff6346;
+    border-bottom: 4px solid #ffbd8a;
+    border-radius: 4px;
+    background-size: 100%;
+    background-color: #fff;
+    margin: 0 .625rem .625rem 0
+}
+
+.choujiang li:first-child, .choujiang li:nth-child(4), .choujiang li:nth-child(7) {
+    margin-left: .625rem
+}
+
+.choujiang li.current {
+    background-color: #fff8af;
+    border-radius: 4px
+}
+
+.jilu {
+    position: absolute;
+    right: 0;
+    top: .5625rem;
+    width: 4.5rem;
+    height: 1.75rem;
+    background-image: linear-gradient(129deg, #fff5cc, #ffc949);
+    border-radius: 100px 0 0 100px;
+    font-family: PingFangSC-Semibold;
+    font-size: .75rem;
+    line-height: 1.75rem;
+    color: #ff6060;
+    letter-spacing: 0;
+    text-align: center
+}
+
